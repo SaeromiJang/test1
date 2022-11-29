@@ -1,0 +1,84 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Serif Khojki', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    color: #3592ad;
+}
+
+.nav-link:hover {
+    color: #3592ad;
+}
+
+.btn-outline-success {
+    color: #3592ad;
+    border-color: #3592ad;
+}
+
+.btn-outline-success:hover {
+    background: #3592ad;
+    color: white;
+}
+
+.card-body {
+    background: #3592ad;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #7c7f7f;
+}
+
+.card-text {
+    color: #fff;
+}
+
+footer {
+    background: #3592ad;
+    color: #fff
+}
+
+.first-line {
+    padding-left: 91px;
+    border-bottom: 1px solid #81d8cf;
+}
+
+.second-line {
+    color: white;
+    text-decoration: none;
+}
+
+.col a {
+    color: #fff;
+}
+
+@media screen and (max-width:48rem) {
+    .first-line {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:48rem) {
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
