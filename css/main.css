@@ -51,10 +51,19 @@ p {
     color: #fff;
 }
 
+.card-text:hover {
+    color: #333;
+}
+
 footer {
     background: #3592ad;
     color: #fff
 }
+
+footer a:hover {
+    color: #333;
+}
+
 
 .first-line {
     padding-left: 91px;
